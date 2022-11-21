@@ -1,0 +1,626 @@
+html {
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    position: relative;
+    width: 100%;
+    height: 16rem;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo {
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+.text-logo {
+    position: absolute;
+    top: 14rem;
+    left: 6rem;
+}
+
+.menu {
+    margin: 2.5rem 2.5rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu>a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 2rem;
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: no-wrap;
+    align-content: center;
+    height: 100vh;
+    background: url(./assets/cognition.jpg) no-repeat right;
+    background-size: 40rem 40rem;
+    background-color: black;
+}
+
+#hero-heading {
+    height: 10rem;
+    display: inline;
+    font-size: 3rem;
+    color: white;
+}
+
+.paragraph {
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    margin-left: 5rem;
+}
+
+.paragraph-2 {
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    margin-left: 5rem;
+}
+
+.grid-box {
+    display: grid;
+    grid-template-rows: repeat(4, 0.2fr);
+}
+
+.section-block {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50rem;
+}
+
+#pasiuni {
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem 2rem 3rem 3rem;
+}
+
+.list>#list-1 {
+    list-style-type: none;
+    padding-top: 5rem;
+}
+
+.list>#list-1 img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+#tennis {
+    position: relative;
+    font-size: 1rem;
+    color: #fff;
+    margin-left: -60rem;
+}
+
+#desen-siba {
+    position: relative;
+    font-size: 1rem;
+    color: #fff;
+    margin-top: -1rem;
+    margin-left: -15rem;
+}
+
+#desen-tehnic {
+    position: relative;
+    font-size: 1rem;
+    color: #fff;
+    margin-right: -27rem;
+    margin-top: -1rem;
+}
+
+#citit-carti {
+    position: relative;
+    font-size: 1rem;
+    color: #fff;
+    margin-left: 60rem;
+    margin-top: 1rem;
+}
+
+#despre-pasiuni {
+    position: relative;
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 10rem;
+}
+
+.section-block-2 {
+    background-color: darkblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#portofoliul-meu {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.list-portofoliu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+#list-portofoliu-1 {
+    width: 100%;
+    height: 10rem;
+    list-style-type: none;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.portofolio-images {
+    position: relative;
+    background: url(assets/employee.jpg) 50% 5% no-repeat, url(assets/ue_game_dev.jpg) 50% 15% no-repeat, url(assets/psychology.jpg) 50% 26% no-repeat, url(assets/web_dev.jpg) 50% 37% no-repeat, url(assets/first-game-jam.jpg) 50% 47% no-repeat, url(assets/net_dev.jpg) 50% 57% no-repeat, url(assets/flappy_bird.jpg) 50% 68% no-repeat, url(assets/java-development.jpg) 50% 78% no-repeat, url(assets/android_car_system.jpg) 50% 89% no-repeat, url(assets/animation.jpg) 50% 100% no-repeat;
+    background-size: 8rem 8rem;
+}
+
+#tehnologii {
+    font-size: 1rem;
+}
+
+.section-block-3 {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    height: 30rem;
+}
+
+#recomandarile-mele {
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+}
+
+.list-recomandari {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+}
+
+#list-recomandari-1 {
+    list-style-type: none;
+    color: #fff;
+    padding-left: 9rem;
+}
+
+#list-recomandari-1>img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+#persoana-1 {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    margin-left: -35rem;
+}
+
+#persoana-2 {
+    margin-top: -2rem;
+    font-size: 1rem;
+    color: #fff;
+}
+
+#persoana-3 {
+    margin-top: -2rem;
+    font-size: 1rem;
+    color: #fff;
+    margin-right: -40rem;
+}
+
+.section-block-4 {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+#about-me {
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+}
+
+.biografie {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.siko {
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 5rem;
+}
+
+p {
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.section-block-5 {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    height: 10rem;
+}
+
+#contacteaza-ma {
+    font-size: 2rem;
+    color: #fff;
+}
+
+address,
+a {
+    font-size: 1rem;
+    color: #fff;
+    padding-top: 1rem;
+}
+
+footer {
+    background-color: black;
+}
+
+footer * {
+    color: #fff;
+}
+
+@media (max-width: 375px) {
+    .container-fluid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 68rem;
+    }
+    .logo {
+        width: 5rem;
+        height: 5rem;
+    }
+    .text-logo {
+        position: relative;
+        top: 0.5rem;
+        left: 0;
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 10rem;
+        margin: 0;
+        margin-top: 3rem;
+        flex-wrap: wrap;
+    }
+    .menu>a {
+        font-size: 1rem;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 68rem;
+        background-size: 20rem 20rem;
+    }
+    #hero-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .grid-box {
+        display: grid;
+        width: 68rem;
+    }
+    .not-fullscreen {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .list {
+        justify-content: space-evenly;
+    }
+    #tennis {
+        margin-left: -50rem;
+    }
+    #desen-siba {
+        margin-top: 1rem;
+    }
+    #desen-tehnic {
+        margin-left: -8rem;
+        margin-top: 1rem;
+    }
+    #citit-carti {
+        margin-left: 45rem;
+    }
+    #despre-pasiuni {
+        margin-top: 2rem;
+    }
+    .not-fullscreen-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    footer {
+        width: 68rem;
+    }
+}
+
+@media (min-width:375px) and (max-width:667px) {
+    .container-fluid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 68rem;
+    }
+    .logo {
+        width: 5rem;
+        height: 5rem;
+    }
+    .text-logo {
+        position: relative;
+        top: 0.5rem;
+        left: 0;
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 10rem;
+        margin: 0;
+        margin-top: 3rem;
+        flex-wrap: wrap;
+    }
+    .menu>a {
+        font-size: 1rem;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 68rem;
+        background-size: 20rem 20rem;
+    }
+    #hero-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .grid-box {
+        display: grid;
+        width: 68rem;
+    }
+    .not-fullscreen {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .list {
+        justify-content: space-evenly;
+    }
+    #tennis {
+        margin-left: -50rem;
+    }
+    #desen-siba {
+        margin-top: 1rem;
+    }
+    #desen-tehnic {
+        margin-left: -8rem;
+        margin-top: 1rem;
+    }
+    #citit-carti {
+        margin-left: 45rem;
+    }
+    #despre-pasiuni {
+        margin-top: 2rem;
+    }
+    .not-fullscreen-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    footer {
+        width: 68rem;
+    }
+}
+
+@media (min-width:667px) and (max-width:767px) {
+    .container-fluid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 68rem;
+    }
+    .logo {
+        width: 5rem;
+        height: 5rem;
+    }
+    .text-logo {
+        position: relative;
+        top: 0.5rem;
+        left: 0;
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 10rem;
+        margin: 0;
+        margin-top: 3rem;
+        flex-wrap: wrap;
+    }
+    .menu>a {
+        font-size: 1rem;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 68rem;
+        background-size: 20rem 20rem;
+    }
+    #hero-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .grid-box {
+        display: grid;
+        width: 68rem;
+    }
+    .not-fullscreen {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .list {
+        justify-content: space-evenly;
+    }
+    #tennis {
+        margin-left: -50rem;
+    }
+    #desen-siba {
+        margin-top: 1rem;
+    }
+    #desen-tehnic {
+        margin-left: -8rem;
+        margin-top: 1rem;
+    }
+    #citit-carti {
+        margin-left: 45rem;
+    }
+    #despre-pasiuni {
+        margin-top: 2rem;
+    }
+    .not-fullscreen-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    footer {
+        width: 68rem;
+    }
+}
+
+@media (min-width:767px) and (max-width:1024px) {
+    .container-fluid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 68rem;
+    }
+    .logo {
+        width: 5rem;
+        height: 5rem;
+    }
+    .text-logo {
+        position: relative;
+        top: 0.5rem;
+        left: 0;
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 10rem;
+        margin: 0;
+        margin-top: 3rem;
+        flex-wrap: wrap;
+    }
+    .menu>a {
+        font-size: 1rem;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 68rem;
+        background-size: 20rem 20rem;
+    }
+    #hero-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .grid-box {
+        display: grid;
+        width: 68rem;
+    }
+    .not-fullscreen {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .list {
+        justify-content: space-evenly;
+    }
+    #tennis {
+        margin-left: -50rem;
+    }
+    #desen-siba {
+        margin-top: 1rem;
+    }
+    #desen-tehnic {
+        margin-left: -8rem;
+        margin-top: 1rem;
+    }
+    #citit-carti {
+        margin-left: 45rem;
+    }
+    #despre-pasiuni {
+        margin-top: 2rem;
+    }
+    .not-fullscreen-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    footer {
+        width: 68rem;
+    }
+}
